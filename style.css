@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    width: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*flex-direction: row;*/
+    margin: 1rem;
+}
+
+.menu{
+    background: -webkit-linear-gradient(to right#D6000D 80%, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.3rem;
+    font-style: italic;
+}
+.menu h1{
+
+   
+
+}
+.table{
+    display: flex;
+    color: black;
+
+    list-style: none;
+}
+.tableMenu{
+    border-radius: 1.4rem;
+    margin: 0rem 0.1rem 0rem 0.1rem;
+    
+    
+    padding: 0.5rem;
+    font-size: 19px;
+    font-style: oblique;
+    
+    
+}
+.tableMenu.Login{
+    background-color: red;
+    color: white;
+    
+}
+
+.principal{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+    
+}
+.principal p{
+    font-size: 28px;
+    font-display: center;
+}
+.principal h2{
+    color: #D6000D;
+    font-size: 59px;
+    font-weight: 700;
+}
+.principal button{
+    background-color: #D6000D;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 0.4rem;
+    height: 36px;
+    width: 250px;
+    margin-top: 25px;
+    padding: 1px 10px 1px 10px;
+}
+.inforWeb{
+    /*margin: 5rem;*/
+    padding: 0 0 0 5rem;
+}
+
+/* Terminar texto lado da imagem e botao*/
+footer{
+    background: #000;
+    color: #ddd;
+    width: auto;
+    height: 250px;
+}
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+        flex-direction: row;
+    }
+
+    #principal {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
