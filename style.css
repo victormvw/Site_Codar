@@ -16,9 +16,7 @@ header{
 }
 
 .menu{
-    background: -webkit-linear-gradient(to right#D6000D 80%, #000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #D6000D;
     font-size: 2.3rem;
     font-style: italic;
 }
@@ -45,7 +43,7 @@ header{
     
 }
 .tableMenu.Login{
-    background-color: red;
+    background-color: #D6000D;
     color: white;
     
 }
@@ -91,17 +89,24 @@ footer{
     background: #000;
     color: #ddd;
     width: auto;
-    height: 250px;
+    height: 180px;
 }
-@media (min-width: 800px) {
-    html {
-        font-size: 87.5%;
-        flex-direction: row;
-    }
+.downBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    padding: 1rem;
+}
+.downBar h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.downBar h3{
+    margin-bottom: 15px;
+}
+.iconRedes{
+    display: flex;
+    padding: 15px;
+}
 
-    #principal {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
-    }
-}
