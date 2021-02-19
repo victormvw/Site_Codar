@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    
+    box-sizing: border-box;
 
 }
 body{
-    width: auto;
+    background: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
 }
+
 header{
     display: flex;
     align-items: center;
@@ -14,17 +17,17 @@ header{
     /*flex-direction: row;*/
     margin: 1rem;
 }
-
+.container{
+    width: min(90vw, 800px);
+    margin: auto;
+}
+/*Universal*/
 .menu{
     color: #D6000D;
     font-size: 2.3rem;
     font-style: italic;
 }
-.menu h1{
 
-   
-
-}
 .table{
     display: flex;
     color: black;
@@ -47,13 +50,13 @@ header{
     color: white;
     
 }
-
+/*Menu*/
 .principal{
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    
     /*flex-direction: row;*/
-    justify-content: center;
+    
     margin-top: 50px;
     
     
@@ -83,20 +86,75 @@ header{
     /*margin: 5rem;*/
     padding: 0 0 0 5rem;
 }
+/*Quase fim site*/
+#midPage{
+    margin-top: 5rem;
+}
+.listaBene{
+    display: flex;
+    margin-right: 4.5rem;
+}
+.listaBene li{
+    font-size: 1.3rem;
+    margin-left: 6.2rem;
+}
+/*Mid Site */
+.centerSite{
+    margin: 3rem;
 
-/* Terminar texto lado da imagem e botao*/
+}
+.celular{
+    margin-right: 1.5rem;
+    margin-top: 0.9rem;
+    background-color: rgb(212, 212, 212);
+    width: 185px;
+    height: 35px;
+    border-radius:8px;
+}
+.centerSite button{
+    background-color: #D6000D;
+    color: white;
+    
+    width: 185px;
+    height: 39px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.commit{
+    display: flex;
+    margin: 3rem;
+}
+.card {
+    padding: 0.5rem;
+    background-color: rgb(212, 212, 212);
+    height: 170px;
+    width: 622px;
+    font-size: 0.85rem;
+    margin-right: 5rem;
+    border-radius: 0.8rem;
+    text-align:left;
+}
+.card p {
+    font-size: 1rem;
+    font-weight:bold;
+    line-height: 2rem;
+}
+
+/* Footer*/
 footer{
     background: #000;
     color: #ddd;
     width: auto;
     height: 180px;
 }
-.downBar{
+.feeder{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 3rem;
     padding: 1rem;
+    margin-left: 2.5rem;
+}
+.downBar{
+    margin-left: 6rem;
 }
 .downBar h2{
     margin-bottom: 15px;
@@ -107,6 +165,8 @@ footer{
 }
 .iconRedes{
     display: flex;
-    padding: 15px;
+}
+.icon{
+    margin-left: 0.5rem;
 }
 
